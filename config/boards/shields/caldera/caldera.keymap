@@ -12,6 +12,7 @@ include <behaviors.dtsi>
             bindings = <&kp LSHFT>, <&kp CAPS>;
         };
     };
+
 / {
     macros {
          m_all: m_all {
@@ -65,7 +66,6 @@ include <behaviors.dtsi>
 / {
         keymap {
                 compatible = "zmk,keymap";
-
                 default_layer { //Layer 0
 // ---------------------------------------------------------------------------------
 // |   `  |  1  |  2  |  3  |  4  |  5  |     |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -84,8 +84,8 @@ include <behaviors.dtsi>
                 l1 { //Layer 1
                         display-name = "Layer 1"
                         bindings = <
-   &trans       &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4        &BT_CLR      &trans       &trans      &trans      &trans     &BT_CLR_ALL
-   &trans    &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4       &trans       &trans       &trans      &trans      &trans     &trans
+   &trans       &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4        &bt BT_CLR   &trans       &trans      &trans      &trans     &bt BT_CLR_ALL
+   &trans       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4       &trans       &trans       &trans      &trans      &trans     &trans
    &trans       &trans         &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans
    &trans       &trans         &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans
    &trans       &trans         &trans         &trans         &trans         &trans              &trans       &trans       &bt BT_PRV  &trans      &trans     &bt BT_NXT
