@@ -3,16 +3,6 @@ include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    behaviors {
-        td0: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp LSHFT>, <&kp CAPS>;
-        };
-    };
-
-/ {
     macros {
          m_all: m_all {
             compatible = "zmk,behavior-macro";
@@ -63,6 +53,14 @@ include <behaviors.dtsi>
 };
 
 / {
+    behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHFT>, <&kp CAPS>;
+        };
+    };
         keymap {
                 compatible = "zmk,keymap";
                 default_layer { //Layer 0
