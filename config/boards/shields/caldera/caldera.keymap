@@ -51,8 +51,8 @@
                         bindings = <
    &kp F1       &kp F2         &kp F3         &kp F4         &kp F5         &kp F6              &kp F7       &kp F8       &kp F9      &kp F10     &kp F11    &kp F12
    &trans       &trans         &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans
-   &trans       &kp LGUI(A)    &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans
-   &trans       &kp LGUI(Z)    &kp LGUI(X)    &kp LGUI(C)    &kp LGUI(V)    &trans              &trans       &trans       &trans      &trans      &trans     &trans
+   &trans       &kp LG(A)      &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans
+   &trans       &kp LG(Z)      &kp LG(X)      &kp LG(C)      &kp LG(V)      &trans              &trans       &trans       &trans      &trans      &trans     &trans
    &trans       &trans         &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans 
                         >;
                 };
