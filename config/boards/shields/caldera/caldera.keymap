@@ -3,16 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-     //macros {
-         //m_dict: m_dict {
-            //compatible = "zmk,behavior-macro";
-            //#binding-cells = <0>;
-            //bindings
-                //= <&macro_tap &kp GLOBE &kp GLOBE>
-                //;
-        //};
-     //};
-
     behaviors {
           td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
