@@ -8,7 +8,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp GLOBE, &kp GLOBE>;
+                = <&macro_tap &kp GLOBE &kp GLOBE>
+                ;
         };
      };
 
