@@ -4,11 +4,18 @@
 
 / {
     macros {
-         m_dict: m_dict {
+         m_pass: m_pass {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp GLOBE &kp GLOBE>
+                = <&kp H &kp o &kp w &kp I &kp M &kp AT &kp 2 &kp g &kp c &kp s >
+                ;
+        };
+        m_user: m_user {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp 5 &kp 2 &kp 6 &kp 2 &kp 4 &kp 2 &kp 0 &kp 6 &kp 0>
                 ;
         };
      };
@@ -76,7 +83,7 @@
                         display-name = "Layer 3";
                         bindings = <
    &kp C_BRI_DN  &kp C_BRI_UP   &kp K_APP      &kp C_BRI_DN   &kp C_BRI_UP   &kp C_PREV          &kp C_PP     &kp C_NEXT   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PWR
-   &trans        &trans         &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans        &trans        &trans
+   &trans        &m_user        &m_pass        &trans         &trans         &trans              &trans       &trans       &trans      &trans        &trans        &trans
    &trans        &trans         &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans        &trans        &trans
    &trans        &trans         &trans         &trans         &trans         &bootloader         &bootloader  &trans       &trans      &trans        &trans        &trans
    &trans        &trans         &trans         &trans         &trans         &sys_reset          &sys_reset   &trans       &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
