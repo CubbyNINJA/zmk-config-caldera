@@ -14,7 +14,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp 5 &kp 2 &kp 6 &kp 2 &kp 4 &kp 2 &kp 0 &kp 6 &kp 0>;
+                = <&kp N5 &kp N2 &kp N6 &kp N2 &kp N4 &kp N2 &kp N0 &kp N6 &kp N0>;
         };
      };
 
