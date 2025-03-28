@@ -8,15 +8,13 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp H &kp o &kp w &kp I &kp M &kp AT &kp 2 &kp g &kp c &kp s >
-                ;
+                = <&kp RS(H) &kp O &kp W &kp RS(I) &kp RS(M) &kp AT_SIGN &kp 2 &kp G &kp C &kp S >;
         };
         m_user: m_user {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp 5 &kp 2 &kp 6 &kp 2 &kp 4 &kp 2 &kp 0 &kp 6 &kp 0>
-                ;
+                = <&kp 5 &kp 2 &kp 6 &kp 2 &kp 4 &kp 2 &kp 0 &kp 6 &kp 0>;
         };
      };
 
