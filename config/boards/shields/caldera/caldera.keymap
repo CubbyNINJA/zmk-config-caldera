@@ -37,12 +37,6 @@
             tapping-term-ms = <200>;
             bindings = <&kp N0>, <&kp RBKT>;
         };
-        td3: tap_dance_3 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mo 3>, <&m_dict>;
-        };
     };
 
      keymap {
