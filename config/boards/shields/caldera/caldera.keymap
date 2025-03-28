@@ -8,7 +8,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp RS(H) &kp O &kp W &kp RS(I) &kp RS(M) &kp AT_SIGN &kp 2 &kp G &kp C &kp S >;
+                = <&kp RS(H) &kp O &kp W &kp RS(I) &kp RS(M) &kp AT_SIGN &kp N2 &kp G &kp C &kp S >;
         };
         m_user: m_user {
             compatible = "zmk,behavior-macro";
