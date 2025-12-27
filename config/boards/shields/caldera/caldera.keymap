@@ -54,7 +54,7 @@
                 l1 { //Layer 1
                         display-name = "Layer 1";
                         bindings = <
-   &kp MINUS    &trans         &trans         &trans         &trans         &trans                &bt BT_CLR      &trans       &kp LBKT    &kp RBKT         &trans        &kp EQUAL
+   &kp MINUS    &trans         &trans         &trans         &trans         &trans                &bt BT_CLR      &trans       &trans      &kp LBKT         &kp RBKT      &kp EQUAL
    &kp GRAVE    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4          &bt BT_CLR_ALL  &trans       &trans      &kp KP_MULTIPLY  &kp KP_PLUS   &trans
    &trans       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4         &trans          &trans       &trans      &kp KP_DIVIDE    &kp KP_MINUS  &trans
    &trans       &trans         &trans         &trans         &trans         &trans                &trans          &trans       &trans      &trans           &trans        &trans
@@ -67,7 +67,7 @@
    &kp F1       &kp F2         &kp F3         &kp F4         &kp F5         &kp F6              &kp F7       &kp F8       &kp F9      &kp F10     &kp F11    &kp F12
    &trans       &trans         &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans
    &trans       &kp LG(A)      &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans
-   &trans       &kp LG(Z)      &kp LG(X)      &kp LG(C)      &kp LG(V)      &trans              &trans       &trans       &trans      &trans      &trans     &trans
+   &trans       &kp LG(Z)      &kp LG(X)      &kp LG(C)      &kp LG(V)      &trans              &trans       &trans       &trans      &trans      &trans     &studio_unlock
    &trans       &trans         &trans         &trans         &trans         &trans              &trans       &trans       &trans      &trans      &trans     &trans 
                         >;
                 };
